@@ -1,0 +1,24 @@
+K22 - Operating Systems 
+4i Programmatistiki Ergasia
+AM:1115200600031
+
+Trexei sta mhxanhmata ths sxolhs
+
+Katarxhn dn exw ulopoihsei auto pou zhthsate gia ta links.
+
+Ta revision number pou xrhsimopoiw einai strings alla ths morfhs "10000" ousiastika dld einai int.
+An sthn check in den dw8ei kanena orisma kai to arxeio den uparxei sto repository tote tou dinetai revision number "10000"
+
+H askhsh mou doulevei toso gia arxeia memonwmena oso kai gia ierarxeies, ena provlhma pou mou parousiasthke einai oti h diff otan pairnei idia arxeia mou epistrefei la8os delta enw 8a perimena keno.
+Auto to provlhma parousiazetai sthn changes an dwsete evros px "-r10000-10000" ka8ws kai sthn checkin an to arxeio uparxei hdh sto repository kai exei prohgh8ei patch. Parola auta exw checkarei ta 
+arxeia pou dhmiourgountai, kai einai idiou mege8ous. 
+
+An dw8ei sthn changes hmeromhnia prin thn arxikh epistrefei mhnuma la8ous, eidalws epistrefei to diff anamesa sthn arxikh ekdosh kai authn pou dw8hke, h analoga doulevei gia hmeromhnies.
+Ta apotelesmata ths changes htan swsta se oles tis periptwseis ektos apo otan edina idies hmeromhnies h idia revision numbers.
+
+Exw ulopoihsei tis sunarthseis pou zhth8hkan kai doulevoun se osous elegxous ekana an kai se kapoies periptwseis dn eimai sigouros an htan auto akrivws pou zhtate.
+
+H tag kanei to tag sta metadata ths teleutaias ekdoshs iso me 1 kai mhdenizei ta alla.
+
+Dn exw teleiopoihsei to parsing logw elleipshs xronou opote sigoura se kapoies periptwseis pou dinontai la8os orismata apo to xrhsth to programma 8a skaei.
+Epishs sugnwmh pou dn espasa ton kwdika se arxeia kai dn evala, sxolia alla dn eixa to kouragio.

@@ -1,0 +1,69 @@
+ To programma mou apoteleitai  apo ena header arxeio me tis dilwseis twn synarthsewn kai twn domwn pou 
+xrisimopoiountai st programma kai ena pigaio arxeio me tous orismous twn synarthsewn.
+Sto programma xrisimopoiw 1 domh gia tous komvous tou dentrou , h opoia apoteleitai apo ena pinaka studId me 4 
+kleidia, ena pinaka pointers me 5 deiktes , mia metavliti keys_num pou deixnei to arithmo kleidiwn kathe komvou  kai 
+mia metavliti leafnode pou otan o komvos einai komvos fyllo pairnei tin timi 1 kai otan einai esoterikos komvos  
+pairnei tii timi 0. Epipleon, xrisimopoiw  1 domi gia tis eggrafes twn mathimatwn tou dentrou , h opoia apoteleitai 
+apo ena deikti pou deixnei  stin epomeni eggrafi mathimatos , ton kodiko tou mathimatos,to onoma mathimatos kai to 
+vathmo. Episis, xrisimopoiw mia voithitiki domi me ena epipleon kleidi  kai ena epipleon deikti ,tin opoia 
+xrisimopoiw voithitika otan ginetai diaspasi  komvou kata tin eisagwgi enos kleidiou.
+Sti synartisi initialize arxikopoiw ton prwto komvo tou dentrou pou einai h arxiki riza tou dentrou, h opoia 
+tautoxrona apotelei komvo fyllo tou dentrou.
+
+Sti synartisi insert dimiourgw tin eggrafi  tou mathimatos pou tha kanoume eisagwgi sto foititi me ton katallilo 
+arithmo mhtrwou. Epeita,kanw anazitisi tou kleidiou sto dentro me xrisi twn voithitikwn synarthsewn search_node, h 
+opoia anazhta kai epistrefei ton komvo fyllo pout ha vrisketai to kleidi an yparxei kai ,kai tis search_key pou 
+anazhta kai epistrefei ti thesi tou kleidiou ston komvo fullo. Stin periptwsi pou to kleidi de yparxei epistrefei tin 
+timi  -1.An to kleidi yparxei kanw anazitisi tou mathimatos me ti xrisi tis voithitikis synartisis search_course pou 
+epistrefei deikti stin eggrafi tou mathimatos an yparxei kai ena deikti pre_course sto proigoumeno mathima .An to 
+mathima de yparxei  epistrefei  NULL.An to mathima den yparxei kanw eisagwgi tou mathimatos sto kleidi.Stin periptwsi 
+pou to kleidi den yparxei kanw eisagwgi to kleidi sto dentro me xrisi tis voithitikis synartisis insert_key_leaf , h 
+opoia stin periptwsi pou o komvos einai gematos kanei diaspasi kai moirazei ta kleidia ston palio kai se ena 
+kainourio komvo. S�auti tin periptwsi kaleitai I voithitiki synartisi insert_key_int h opoia kanei eisagwgi tou 
+katallilou kleidiou ston patera tou komvou fyllou pou egine I eisagwgi.H synartisi auti kalei ton eauto tis sto 
+analogo simeio gia na ginoun oi katalliles eisagwges kai stous ypoloipous esoterikous komvous.Oi synarthseis autes 
+stin periptwsi pou o komvos ston opoio ginetai I eisagwgi den einai gematos kaleitai h synartisi insert_node_leaf h    
+insert_node_int antistoixa gia na ginei I eisagwgi stous komvous.
+
+Sth synartisi load anoigw to arxeio apo to opoio diavazw kathe entoli kai analoga ekteleitai I katallili entoli.
+
+Sth synartisi lookup anazitw to kleidi tou opoiou tis plirofories prepei na emfanisoume kai ginetai  ektypwsi tou 
+arithmou mitrwou tou foititi kai twn pliroforiwn twn mathimatwn pou exei perasei.
+
+Sth synartisi rlookup anazitw ton komvo pou yparxei h tha ypirxe to mikrotero apo ta duo kleidia pou dinontai gia to 
+evros  kai elegxw an yparxoun kleidia ston komvo auto pou na vriskontai  mesa sto evros.An yparxei toulaxiston ena 
+kleidi proxwraw ston epomeno komvo pou vrisketai deksia kai kanw to idio mexri na vroume kapoio komvo pou den 
+periexei  kleidi mesa sto evros .Gia kathe kleidi pou anikei sto euros ginetai ektypwsi twn pliroforiwn tou.
+
+Sth synartisi delete ginetai anazitisi tou komvou pou periexei to katallilo kleidi, tis thesis tou keidiou mesa ston 
+komvo kai tou mathimatos pou prepei na diagrafei. Epeita,ftaixnw katallila tous deiktes kai apeleutherwnw ti domi tou 
+mathimatos pou prepei na diagrafei.
+
+Sth synarthsh sdelete ginetai anazitisi tou kleidiou kai diagrafi twn mathimatwn tou. Epeita, kaleitai I voithitiki 
+synartisi delete_key_leaf h opoia vriskei to kleidi pou prepei na diagrafei sto komvo fyllo kai elegxei an 
+paraviazetai to orio kleidiwn tou komvou.Stin periptwsi  pou den paraviazetai to orio ginetai diagrafi tou kleidiou 
+kai enimerwsi tou dentrou stin periptwsi pou to kleidi pou diagrafike itan to teleutaio tou komvou. Stin periptwsi 
+pou paraviazetai to orio vriskoume ton aderfo pou tha voithisei sti diagrafi me ti synartisi  bro_node. H bro_node 
+psaxnei ton katallilo  aderfo tou komvou me ton idio patera. Stin periptwsi pou o aderfos exei panw apo 2 kleidia 
+ginetai diaspasi tou komvou autou me ton aderfo kai ginetai enimerwsi stous esoterikous komvous tou dentrou. Stin 
+periptwsi pou o aderfos exei 2 paidia ginetai apeleutherwsi tou arxikou komvou kai diagrafi tou antistoixou kleidiou 
+apo ton patera me ti synartisi delete_key_int  gia stin opoia isxyoun oi idies periptwsis me diafora oti stin 
+periptwsi pou I diagrafi tou katallilou kleidiou apo ton pateras tou esoterikou komvou ginetai me anadromi kalontas 
+ksana tin delete_key_int. 
+
+Stin main ylopoieitai to kelyfos me to opoio allilepidra me to xristi. Me ti voitheia tis scanf diavazetai  h entoli 
+pou dinetai apo xristi kai ekteleitai I katallili synartisi.H allilepidrasi me to kelyfos teleiwnei otan o xristis 
+pliktrologisei mia entoli diaforetiki apo autes tou programatos.
+To kelyfos dexetai tis synartiseis pou pliktrologountai me tin eksis morfi:
+initialize
+insert 02034 K23 Mathimatika 7
+load Records.txt
+lookup 02034
+rlookup 02034_02145
+delete 0234 K23
+sdelete 02034
+        
+//Den exw ftiaksei ksana makefile opote de gnwrizw an einai swsto
+//Stin periptwsi pou den einai swsto, to programma ekteleitai me tis eksis entoles:
+//compile: gcc -o leit leitourgika1.c
+//ektelesi: ./leit

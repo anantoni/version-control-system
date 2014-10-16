@@ -1,0 +1,28 @@
+step 0.
+checkin to project ('h main.c)
+
+step 1.
+
+./step1.sh
+checkin to project ('h to main.c kai to MAKEFILE)
+
+
+step 2.
+./step2.sh
+checkin to project ('h to main.c kai to README)
+
+step 3.
+changes to README
+./step3.sh
+checkout to project
+./forloop.sh
+
+step 4.
+tag to project
+./step4.sh
+changes to functions.c
+
+step 5.
+./step3.sh
+checkout th stable
+./forloop.sh (8a mas ferei mono th diafora sto functions.c)
